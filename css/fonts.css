@@ -1,60 +1,60 @@
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-SemiBold.ttf);
+    src: url(../fonts/OpenSans-SemiBold.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: "Open Sans";
-    src: url(../fonts/OpenSans-Italic.ttf);
+    src: url(../fonts/OpenSans-Italic.ttf) format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: "Lato";
-    src: url(../fonts/Lato/Lato-Regular.ttf);
+    src: url(../fonts/Lato/Lato-Regular.ttf) format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Lato";
-    src: url(../fonts/Lato/Lato-Bold.ttf);
+    src: url(../fonts/Lato/Lato-Bold.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: "Lato";
-    src: url(../fonts/Lato/Lato-Regular.ttf);
+    src: url(../fonts/Lato/Lato-Regular.ttf) format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Lato";
-    src: url(../fonts/Lato/Lato-Italic.ttf);
+    src: url(../fonts/Lato/Lato-Italic.ttf) format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: "Raleway";
-    src: url(../fonts/Raleway/Raleway-Regular.ttf);
+    src: url(../fonts/Raleway/Raleway-Regular.ttf) format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: "Raleway";
-    src: url(../fonts/Raleway/Raleway-SemiBold.ttf);
+    src: url(../fonts/Raleway/Raleway-SemiBold.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     font-family: "Raleway";
-    src: url(../fonts/Raleway/Raleway-ExtraBold.ttf);
+    src: url(../fonts/Raleway/Raleway-ExtraBold.ttf) format('truetype');
     font-weight: 800;
     font-style: normal;
 }
