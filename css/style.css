@@ -6,6 +6,11 @@ body {
  header {
     background-image: url(../img/bg.png);
 }
+.wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
 .info-item, .info-link{
     color: rgba(255, 255, 255, 0.3);
     font-size: 14px;
@@ -15,23 +20,40 @@ body {
 }
 .nav-link {
     color: #444444;
+    text-decoration: none;
 }
 .nav-link.active {
     color: #30a3f0;
 }
 
 .title p {
+    font-family: "Raleway";
     color: #30a3f0;
     font-size: 18px;
 }
 .title h1 {
+    max-width: 709px;
+    font-family: "Raleway";
+    font-weight: 800;
     color: #fff;
     font-size: 45px;
     text-transform: uppercase;
+    margin: 0 auto;
 }
 .btn {
     color: #30a3f0;
     text-transform: uppercase;
+    border: 1px solid #30a3f0;
+    padding: 20px 42px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn:hover {
+    background-color: #30a3f0;
+    color: #fff;
+    border: 1px solid #fff;
 }
 .box h2 {
     font-family: "Raleway";
@@ -46,12 +68,26 @@ body {
     font-size: 16px;
     color: #30a3f0;
 }
+.element {
+    width: 1px;
+    height: 100px;
+    background-color: #2987c7;
+    margin: 0 auto;
+}
+.element-top {
+    margin-bottom: 29px;
+}
+.element-bottom {
+    margin-top: 33px;
+}
 .decription {
     color: #707070;
+    margin-top: 27px;
 }
 .list-decription {
     color: #222222;
 }
 .blok-grey {
     background-color: #fafafa;
+ 
 }
