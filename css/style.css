@@ -57,6 +57,9 @@ body {
 .nav-item {
     margin-left: 7px;
 }
+.nav-item-btn {
+    margin-left: 21px
+}
 .nav-link {
     color: #444444;
     text-decoration: none;
@@ -89,6 +92,15 @@ body {
     list-style-type: none;
     padding: 0;
     display: flex;
+}
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.nav-btn svg {
+    color: #444444;
+
 }
 .title {
     margin-bottom: 40px;
