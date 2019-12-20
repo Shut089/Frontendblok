@@ -171,7 +171,8 @@ body {
     font-size: 30px;
     font-weight: 800;
     font-family: "Raleway";
-    text-transform: uppercase;;
+    text-transform: uppercase;
+    margin-bottom: 14px;
 
 }
 .title-h2 span {
@@ -196,6 +197,7 @@ body {
     width: 90px;
     height: 15px;
     margin: 0 auto;
+    
 }
 .element {
     width: 1px;
@@ -209,11 +211,17 @@ body {
 .element-bottom {
     margin-top: 33px;
 }
-.decription {
+.description {
     color: #707070;
     margin-top: 27px;
+    line-height: 26px;
 }
-.list-decription {
+.page-grey .description {
+    max-width: 686px;
+    margin: 0 auto;
+    margin-top: 31px;
+}
+.list-description {
     color: #222222;
     list-style-type: none;
     padding-left: 0;
@@ -221,13 +229,13 @@ body {
     margin-bottom: 60px;
 
 }
-.list-decription > li {
+.list-description > li {
     margin-bottom: 27px;
     padding-left: 37px;
     position: relative;
     color: #222222;
 }
-.list-decription > li::before {
+.list-description > li::before {
     content: '';
     display: block;
     background-image: url(../img/check.png);
@@ -301,4 +309,77 @@ body {
     background-image: url(../img/blue.png);
     color: #fff;
     transition: 0.4s;
+}
+.foto {
+    display: flex;
+}
+.foto-item {
+    overflow: hidden;
+    flex-basis: 20%;
+    height: 350px;
+    position: relative;
+}
+.foto-item img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    height: 350px;
+    z-index: -1;
+}
+.foto-text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: calc(50% - 30px);
+    display: none;
+}
+.foto-text h3 {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Raleway";
+    margin-top: 0;
+    color: #fff;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+.foto-text p {
+    color: #707070;
+    margin-bottom: 0;
+}
+.foto-item:hover {
+    background-color: rgba(34, 34, 34, 0.8);
+    transition: 0.4s;
+}
+.foto-item:hover .foto-text {
+    display: block;
+}
+
+.foto-btn {
+    position: absolute;
+    display: none;
+    right: 0;
+    bottom: 0;
+
+}
+.foto-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 61px;
+    height: 61px;
+    text-align: center;
+    color: black;
+}
+.foto-btn a:hover{
+    display: flex;
+    background: #30a3f0;
+    color: #fff;
+    transition: 0.4s;
+}
+.foto-item:hover .foto-btn {
+    display: flex;
 }
