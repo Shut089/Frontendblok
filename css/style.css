@@ -305,8 +305,25 @@ body {
     font-size: 30px;
     line-height: 4.8;
 }
+.box-icon-min {
+    width: 96px;
+    height: 96px;
+    color: #c9c9c9;
+    font-size: 24px;
+    background-size: 96px 96px;
+    flex-basis: 96px;
+    line-height: 3.9;
+    text-align: center;
+    margin: initial;
+}
 .box-item:hover .box-icon {
     background-image: url(../img/blue.png);
+    color: #fff;
+    transition: 0.4s;
+}
+.grid-line:hover .box-icon-min{
+    background-image: url(../img/bg-min.png);
+    background-repeat: no-repeat;
     color: #fff;
     transition: 0.4s;
 }
@@ -382,4 +399,29 @@ body {
 }
 .foto-item:hover .foto-btn {
     display: flex;
+}
+.grid {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 70px 50px;
+    margin-top: 122px;
+    margin-bottom: 126px;
+}
+.grid h3 {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 21px;
+    margin-top: 0;
+}
+.grid .description {
+    margin-bottom: 0;
+}
+.grid-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-line-text {
+    flex-basis: calc(100% - 126px);
 }
