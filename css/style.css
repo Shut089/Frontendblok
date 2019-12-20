@@ -118,7 +118,7 @@ body {
     font-size: 18px;
 }
 .title h1 {
-    max-width: 709px;
+    max-width: 711px;
     font-family: "Raleway";
     line-height: 60px;
     font-weight: 800;
@@ -141,7 +141,6 @@ body {
 .btn:hover {
     background-color: #30a3f0;
     color: #fff;
-    transition: 0.4s;
     /* border: 1px solid #fff; */
 }
 .box {
@@ -284,7 +283,6 @@ body {
     background-color: #fafafa;
     border: 1px solid #30a3f0;
     color: #30a3f0;
-    transition: 0.4s;
 }
 .box-text {
     max-width: 530px;
@@ -319,13 +317,13 @@ body {
 .box-item:hover .box-icon {
     background-image: url(../img/blue.png);
     color: #fff;
-    transition: 0.4s;
+
 }
 .grid-line:hover .box-icon-min{
     background-image: url(../img/bg-min.png);
     background-repeat: no-repeat;
     color: #fff;
-    transition: 0.4s;
+    
 }
 .foto {
     display: flex;
@@ -335,6 +333,7 @@ body {
     flex-basis: 20%;
     height: 350px;
     position: relative;
+    transition: 0.4s;
 }
 .foto-item img {
     width: 100%;
@@ -368,7 +367,7 @@ body {
 }
 .foto-item:hover {
     background-color: rgba(34, 34, 34, 0.8);
-    transition: 0.4s;
+    
 }
 .foto-item:hover .foto-text {
     display: block;
@@ -379,6 +378,7 @@ body {
     display: none;
     right: 0;
     bottom: 0;
+    transition: 0.4s;
 
 }
 .foto-btn a{
@@ -395,7 +395,7 @@ body {
     display: flex;
     background: #30a3f0;
     color: #fff;
-    transition: 0.4s;
+    
 }
 .foto-item:hover .foto-btn {
     display: flex;
@@ -421,7 +421,24 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: 0.4s;
 }
 .grid-line-text {
     flex-basis: calc(100% - 126px);
+}
+.page-bg {
+    background-image: url(../img/bgblock.png);
+    background-size: cover; 
+    padding-top: 110px;
+    padding-bottom: 110px;
+
+}
+.page-bg .title {
+    margin-bottom: 0;
+}
+.page-bg .title h1 {
+    margin-bottom: 40px;
+}
+.page-bg .element-bottom {
+    margin-top: 53px;
 }
