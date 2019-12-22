@@ -216,7 +216,8 @@ body {
     line-height: 26px;
 }
 .page-grey .description,
-.page-team .description {
+.page-team .description,
+.page-blog .description {
     max-width: 686px;
     margin: 0 auto;
     margin-top: 31px;
@@ -551,4 +552,132 @@ body {
     color: #30a3f0;
     font-size: 60px;
 
+}
+.blog {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 60px;
+}
+
+.blog-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+    
+}
+.blog-flex:hover .thumb-blog {
+    background-color: rgba(34, 34, 34, 0.5);
+
+}
+.blog-flex:hover .blog-eye {
+    display: block;
+    color: #fff;
+    z-index: 1;
+}
+.blog-eye {
+    display: none;
+
+}
+.thumb-blog {
+    position: relative;
+    width: 285px;
+    flex-basis: 285px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+.thumb-blog::after {
+    content: '';
+    background-image: url(../img/blogfigur.png);
+    width: 21px;
+    height: 42px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.thumb-blog img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+.text-blog {
+    padding: 45px 37px 50px;
+    background-color: #fafafa;
+    flex-basis: calc(100% - 285px);
+}
+.text-blog h3 {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+}
+.text-blog ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-transform: uppercase;
+    color: #444444;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.text-blog ul > li {
+    padding-right: 17px;
+    margin-right: 19px;
+    border-right: 1px solid #707070;
+}
+.text-blog ul > li:last-child {
+    border-right:none;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+.text-blog ul > li > a {
+    color: #444444;
+    text-decoration: none;
+}
+.text-blog p {
+    color: #444444;
+    line-height: 26px;
+
+}
+.text-blog a {
+    text-decoration: none;
+    color: #30a3f0;
+}
+.text-blog a span {
+    margin-right: 10px;
+}
+.blog-share {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: calc(100% - 50px);
+    left: 65px;
+    text-align: center;
+}
+.comments {
+    margin-right: 10px;
+}
+.comments,
+.like {
+    color: #707070;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    transition: 0.4s;
+}
+.comments:hover,
+.like:hover {
+    background-color: #30a3f0;
+    color: #fff;
+    border: none;
 }
