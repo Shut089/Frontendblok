@@ -251,8 +251,6 @@ body {
 .page-grey {
     background-color: #fafafa;
     padding-top: 100px;
-    padding-bottom: 62px;
- 
 }
 .mockup {
     background-image: url(../img/mocup.png);
@@ -328,6 +326,7 @@ body {
 }
 .foto {
     display: flex;
+    margin-top: 62px;
 }
 .foto-item {
     overflow: hidden;
@@ -519,4 +518,37 @@ body {
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
+}
+.screen {
+    margin-top: 60px;
+}
+.page-stat {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding-top: 116px;
+    padding-bottom: 114px;
+}
+.box-stat {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.box-stat h3 span {
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 24px;
+}
+.box-stat h3 {
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 36px;
+    margin-bottom: 0;
+}
+.icon {
+    color: #30a3f0;
+    font-size: 60px;
+
 }
