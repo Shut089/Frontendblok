@@ -222,6 +222,9 @@ body {
     margin: 0 auto;
     margin-top: 31px;
 }
+.page-blog {
+    padding-top: 100px;
+}
 .list-description {
     color: #222222;
     list-style-type: none;
