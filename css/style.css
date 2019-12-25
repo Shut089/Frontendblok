@@ -549,6 +549,7 @@ body {
 }
 .screen {
     margin-top: 60px;
+    width: 100%;
 }
 .page-stat {
     background-color: #111;
@@ -556,7 +557,7 @@ body {
     text-align: center;
     padding-top: 116px;
     padding-bottom: 104px;
-    margin-top: -1.8px;
+    margin-top: -2.1px;
 }
 .box-stat-item-one {
     margin-left: -12px;
@@ -574,7 +575,6 @@ body {
 .box-stat {
     display: flex;
     justify-content: space-around;
-    
 }
 .box-stat h3 span {
     color: #707070;

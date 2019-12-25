@@ -1,0 +1,41 @@
+@media(max-width: 1170px) {
+    .mockup {
+        width: 500px;
+        height: 447px;
+        right: 30px;
+    }
+}
+@media(max-width:1100px) {
+    .wrapper {
+        max-width: 900px;
+    }
+}
+.head {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 23px 40px 23px;
+}
+.nav {
+    margin-top: 28px;
+}
+.box-item {
+    padding: 60px 30px 60px;
+}
+.mockup {
+    width: 388px;
+    height: 346px;
+    right: 15px;
+}
+.blog {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+}
+/* Laptop */
+@media(max-width:992px) {
+
+}
+/* Планшет */
+@media(max-width:978px) {
+
+}
+/* Смартфоны */
+@media(max-width:576px) 
