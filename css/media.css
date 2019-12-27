@@ -323,6 +323,42 @@
     background-position: -570px center;
 }    
 }
+@media(max-width:460px) {
+    body {
+        width: 460px;
+    }
+.info-item, .info-link {
+    font-size: 11px;
+}
+.logo {
+    width: 113px;
+}
+.head {
+    padding: 8px 3px 8px;
+    margin-bottom: 11px;
+}
+.nav {
+    justify-content: flex-end;
+    font-size: 10px;
+}
+.nav-item-btn {
+    margin-right: 12px;
+}
+.page-company {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.company {
+    margin-left: 84px;
+    margin-right: 89px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+.company-six {
+    flex-basis: 73px;
+}
+}
 /* Iphone 5 */
 @media(max-width:320px) {
     body {
