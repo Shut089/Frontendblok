@@ -342,7 +342,7 @@
     font-size: 10px;
 }
 .nav-item-btn {
-    margin-right: 12px;
+    display: none;
 }
 .page-company {
     padding-top: 25px;
