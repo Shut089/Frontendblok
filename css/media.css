@@ -323,3 +323,211 @@
     background-position: -570px center;
 }    
 }
+/* Iphone 5 */
+@media(max-width:320px) {
+    body {
+        width: 403px;
+    }
+.info {
+    margin-bottom: 8px;
+}
+.info-left .info-item {
+    margin-right: 18px;
+}
+.info-item, .info-link {
+    font-size: 11px;
+}
+.header {
+    padding-bottom: 25px;
+}
+.head {
+    padding: 8px 21px 8px;
+}
+.logo {
+    width: 115px;
+}
+nav {
+    font-size: 11px;
+}
+.title p {
+    font-size: 10px;
+}
+.btn, .btn-blue {
+    font-size: 9px;
+}
+.btn, .btn-blue {
+    padding: 9px 20px;
+}
+.title {
+    margin-bottom: 23px;
+}
+.title h1 {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 248px;
+    margin-top: 0px;
+}
+.element {
+    height: 35px;
+}
+.element-top {
+    margin-bottom: 10px;
+}
+.element-bottom {
+    margin-top: 10px;
+}
+.box h2 {
+    font-size: 14px;
+}
+.box-item .description {
+    font-size: 12px;
+    margin-top: 14px;
+    line-height: 19px;
+}
+.page-mockup {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.title-h2 {
+    font-size: 16px;
+}
+.title-h2 span {
+    font-size: 10px;
+}
+.description {
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+.list-description {
+    margin-top: 18px;
+    margin-bottom: 32px;
+    font-size: 12px;
+}
+.page-grey {
+    padding-top: 24px;
+}
+.foto-item {
+    height: 186px;
+}
+.grid {
+    grid-template: 1fr 1fr 1fr 1fr / 1fr;
+    margin-top: 36px;
+}
+.page-bg {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.page-team {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.team-thumb, .team-thumb img {
+    height: 150px;
+    width: 150px;
+}
+.team-position {
+    font-size: 12px;
+}
+.team-name {
+    font-size: 16px;
+}
+.page-stat {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.icon {
+    font-size: 20px;
+}
+.box-stat h3 {
+    margin-top: 9px;
+    font-size: 18px;
+}
+.box-stat h3 span {
+    font-size: 10px;
+    margin-bottom: 6px;
+}
+.page-blog {
+    padding-top: 16px;
+}
+.blog {
+    grid-gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.thumb-blog {
+    width: 160px;
+    flex-basis: 160px;
+    height: 160px;
+}
+.blog-share {
+    left: 37px;
+    top: calc(100% - 33px);
+}
+.comments, .like {
+    height: 21px;
+    width: 39px;
+    font-size: 10px;
+}
+.text-blog {
+    padding: 8px 21px 15px;
+    flex-basis: calc(100% - 204px);
+}
+.text-blog ul {
+    margin-bottom: 14px;
+    font-size: 7px;
+}
+.text-blog h3 {
+    font-size: 12px;
+    margin-bottom: 9px;
+}
+.text-blog p {
+    font-size: 10px;
+    line-height: 14px;
+}
+.text-blog a span {
+    font-size: 12px;
+}
+.company {
+    margin-left: 0px;
+}
+.company-items {
+    background-size: cover;
+    height: 60px;
+}
+.page-company {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.company-one {
+    background-position: -9px center;
+}
+.company-two {
+    background-position: -102px center;
+}  
+.company-three {
+    background-position: -206px center;
+}
+.company-four {
+    background-position: -297px center;
+}
+.company-five {
+    background-position: -401px center;
+}   
+.company-six {
+    background-position: -488px center;
+    flex-basis: 68px;
+}    
+.btn-footer {
+    font-size: 15px;
+    width: 28px;
+    height: 17px;
+}
+.footer-bg {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.footer-text {
+    font-size: 8px;
+}
+}
