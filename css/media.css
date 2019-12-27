@@ -161,4 +161,165 @@
     }
 }
 /* Смартфоны */
-@media(max-width:576px) {}
+@media(max-width:576px) {
+    body {
+        width: 100%;
+    }
+.title h1 {
+    font-size: 24px;
+    line-height: 35px;
+    max-width: 418px;
+    }
+.head {
+    padding: 8px 40px 8px;
+    margin-bottom: 11px;
+}
+.nav {
+    justify-content: center;
+    margin: 12px auto 0;
+    flex-wrap: wrap
+}
+.nav-item {
+    margin-bottom: 6px;
+}
+.nav-link, .nav-link.active {
+    padding: 0px 10px 3px;
+}
+.title p {
+    font-size: 14px;
+}
+.element-top {
+    margin-bottom: 16px;
+}
+.element {
+    height: 53px;
+}
+.element-bottom {
+    margin-top: 16px;
+}
+.box-text {
+    margin: 0 auto;
+}
+.box-icon-min {
+    width: 70px;
+    height: 70px;
+    font-size: 17px;
+    background-size: 70px 70px;
+    flex-basis: 70px;
+}
+.grid {
+    margin-top: 65px;
+    margin-bottom: 36px;
+    grid-gap: 21px 6px;
+}
+.grid-line-text {
+    flex-basis: calc(100% - 90px);
+}
+.page-bg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page-team {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.title-h2 span {
+    font-size: 13px;
+    margin-bottom: 9px;
+}
+.title-h2 {
+    font-size: 23px;
+}
+.page-team .description {
+    margin-top: 16px;
+}
+.team {
+    margin-top: 25px;
+}
+.page-stat {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.icon {
+    font-size: 30px;
+}
+.box-stat h3 {
+    margin-top: 13px;
+    font-size: 25px;
+}
+.box-stat h3 span {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.page-blog {
+    padding-top: 40px;
+}
+.blog {
+    grid-gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.thumb-blog {
+    width: 225px;
+    flex-basis: 225px;
+    height: 230px;
+}
+.blog-share {
+    left: 44px;
+}
+.text-blog {
+    padding: 15px 36px 15px;
+}
+.text-blog ul {
+    margin-bottom: 16px;
+    font-size: 9px;
+}
+.text-blog h3 {
+    font-size: 16px;
+    margin-bottom: 9px;
+}
+.text-blog p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.company {
+    margin-left: 25px;
+}
+.company-items {
+    background-size: cover;
+    height: 70px;
+}
+.page-company {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.company-one {
+    width: 87px;
+    flex-basis: 67px;
+    background-position: -10px center;
+}
+.company-two {
+    width: 95px;
+    flex-basis: 72px;
+    background-position: -120px center;
+}  
+.company-three {
+    flex-basis: 57px;
+    background-position: -241px center;
+}
+.company-four {
+    width: 90px;
+    flex-basis: 70px;
+    background-position: -347px center;
+}
+.company-five {
+    width: 121px;
+    flex-basis: 52px;
+    background-position: -469px center;
+}   
+.company-six {
+    width: 92px;
+    flex-basis: 113px;
+    background-position: -570px center;
+}    
+}
